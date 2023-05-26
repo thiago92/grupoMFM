@@ -1,0 +1,207 @@
+/*Body da página*/
+html, body, #home {
+	height: 100%;
+	overflow-x: hidden;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background: #252525;
+}
+
+/*nav*/
+nav.navbar-transparente {
+	padding: 53px 0px;
+	background: #161616;
+}
+
+/* .navbar-expand-md .navbar-nav .nav-link {
+	color: white;
+} */
+
+/* .navbar-expand-md .navbar-nav .nav-link:hover {
+	color: #9bf0e1;
+} */
+
+/* .navbar-expand-md .navbar-toggler {
+	color:  rgba(255,255,255,.5);
+	border-color: rgba(255,255,255,.1);
+} */
+
+.navimg {
+    padding: 53px;
+  }
+  
+.navimg img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 285px;
+  }
+
+/*corpo*/
+
+.linha-tracejada {
+    border-top: 1px dashed #696969;
+  }
+
+.title1 {
+    color: #FFFFFF;
+    font-size: 31px;
+    margin-bottom: 15px;
+}
+
+.title2 {
+    color: #FFFFFF;
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.title3{
+    color: #FFFFFF;
+    font-size: 18px;
+    margin-left: 30px;
+    font-weight: 550;
+}
+
+.title4{
+    color: #FFFFFF;
+    font-size: 18px;
+    margin-left: 30px;
+    font-weight: 575;
+}
+
+.pd .title4{
+    padding-top: 7px;
+}
+
+.about {
+    color: #E0E0E0;
+    font-size: 15px;
+    text-align: justify;
+}
+
+.spacesection {
+    margin-left: -25px;
+    margin-bottom: 70px;
+    margin-top: 65px;
+}
+
+.mt {
+    margin-top: 25px;
+}
+
+.mb {
+    margin-bottom: 50px;
+}
+
+.mt1 {
+    margin-top: 5px;
+}
+
+.mb-5 .mt1 .col-md-3{
+    padding-top: 0;
+    padding-left: 35px;
+    padding-bottom: 0;
+    padding-right: 35px;
+    margin-bottom: 25px;
+}
+
+/* .pln {
+    margin-left: -45px;
+    margin-top: 5px;
+} */
+
+.radius {
+	border-radius: 50px 0;
+	/* box-shadow: 0 0px 4px rgba(0, 0, 0, 0.3); */
+  }
+
+.sectionBotton {
+    background: #161616;
+    padding: 35px;
+}
+
+.mimg {
+    margin-top: 15px;
+}
+
+.pr {
+    padding-right: 5px;
+}
+
+/* .pd {
+    padding-top: 10px;
+    padding-left: 55px;
+} */
+
+.item {
+    padding-top: 10px;
+}
+
+ul {
+	list-style: none;
+    color: #fffff8;
+    font-size: 17px;
+}
+
+ul li {
+    padding-bottom: 4px;
+}
+
+ul li a i{
+    font-size: 135%;
+}
+
+.socialpd {
+    margin-left: -5px;
+}
+
+.social {
+    float: left;
+    margin: 0px 3px;
+    background: #333030;
+    width: 40px;
+    height: 40px;
+    padding: 9px 0 0 10px;
+    border-radius: 50%;
+}
+
+a {
+    text-decoration: none;
+    color: #fffff8;
+  }
+
+a:hover {
+    color: #fffff8;
+}
+
+.container {
+    overflow: hidden;
+  }
+  
+.zoomimg {
+    transition: transform 0.3s ease;
+  }
+  
+.zoomimg:hover {
+    transform: scale(1.1);
+  }
+
+/*Footer*/
+
+.footerBotton {
+    background: #0E0E0E;
+    padding: 10px;
+    color: #7A7A7A;
+    font-size: 14px ;
+}
+
+/*-------------------------------------------------------------------------------------
+Adicionando animações com o WOW
+--------------------------------------------------------------------------------------/*
+
+/* Adicione um atraso de 0,5s para iniciar a animação */
+        

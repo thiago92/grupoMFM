@@ -1,0 +1,88 @@
+.wow {
+  visibility: visible;
+}
+
+/* Animação de desvanecimento */
+.fadeIn {
+  animation-name: fadeIn;
+  animation-duration: 1s;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    transform: translateY(100%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.slideInDown {
+  animation-name: slideInDown;
+  animation-duration: 1.0s;
+}
+
+@keyframes slideInDown {
+  0% {
+    transform: translateY(-100%);
+    opacity: 0;
+    /* visibility: visible; */
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+    /* visibility: visible; */
+  }
+}
+
+.slideInUp {
+  animation-name: slideInUp;
+  animation-duration: 1.0s;
+}
+
+@keyframes slideInUp {
+  0% {
+    transform: translateY(100%);
+    opacity: 0;
+    /* visibility: visible; */
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+    /* visibility: visible; */
+  }
+}
+
+.slideInRight {
+  animation-name: slideInRight;
+  animation-duration: 1.0s;
+}
+
+@keyframes slideInRight {
+  0% {
+    transform: translateX(-100%);
+    visibility: visible;
+  }
+  100% {
+    transform: translateX(0);
+    visibility: visible;
+  }
+}
+
+.slideInLeft {
+  animation-name: slideInLeft;
+  animation-duration: 1.0s;
+}
+
+@keyframes slideInLeft {
+  0% {
+    transform: translateX(100%);
+    visibility: visible;
+  }
+  100% {
+    transform: translateX(0);
+    visibility: visible;
+  }
+}
