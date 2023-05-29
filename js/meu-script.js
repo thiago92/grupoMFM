@@ -1,17 +1,26 @@
-$(window).scroll(function() {
-    // Verifique a posição da rolagem em relação à parte superior da janela
-    var scrollTop = $(this).scrollTop();
-    
-    // Seletor para os elementos que você deseja animar
-    var elementos = $('.wow');
-    
-    elementos.each(function() {
-      var elementTop = $(this).offset().top;
-      
-      // Verifique se o elemento está visível na janela
-      if (elementTop - scrollTop < $(window).height() - 100) {
-        $(this).addClass('animated'); // Adicione uma classe CSS para aplicar a animação
-      }
-    });
-  });
-  
+
+  new WOW().init();
+  // Após adicionar dinamicamente o elemento do cabeçalho
+  var headerElement = document.querySelector('header');
+  // ...
+
+  // Atualizar o WOW.js para animar o novo elemento do cabeçalho
+  wow.refresh();
+  // Após adicionar dinamicamente o conteúdo na seção "Sobre o Grupo"
+  var sobreGrupoElement = document.querySelector('.secaoSobreOGrupo');
+  // ...
+
+  // Atualizar o WOW.js para animar o novo conteúdo
+  wow.refresh();
+  // Após adicionar dinamicamente as imagens das empresas
+  var empresasElement = document.querySelector('.empresas');
+  // ...
+
+  // Atualizar o WOW.js para animar as novas imagens
+  wow.refresh();
+  // Após adicionar dinamicamente o conteúdo no rodapé
+  var footerElement = document.querySelector('footer');
+  // ...
+
+  // Atualizar o WOW.js para animar o novo conteúdo do rodapé
+  wow.refresh();
