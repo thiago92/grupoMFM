@@ -10,7 +10,7 @@ body {
 }
 
 /*nav*/
-nav.navbar-transparente {
+nav.navbar-div {
 	padding: 53px 0px;
 	background: #161616;
 }
@@ -28,11 +28,15 @@ nav.navbar-transparente {
 	border-color: rgba(255,255,255,.1);
 } */
 
-.navimg {
+.wow {
+    visibility: visible;
+  }
+
+.nav-img {
     padding: 53px;
   }
   
-.navimg img {
+.nav-img img {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -42,7 +46,7 @@ nav.navbar-transparente {
 
 /*corpo*/
 
-.linha-tracejada {
+.linhaTracejada {
     border-top: 1px dashed #696969;
   }
 
@@ -77,31 +81,31 @@ nav.navbar-transparente {
     padding-top: 7px;
 }
 
-.about {
+.historia {
     color: #E0E0E0;
     font-size: 15px;
     text-align: justify;
 }
 
-.spacesection {
+.secaoSobreOGrupo {
     margin-left: -25px;
     margin-bottom: 70px;
     margin-top: 65px;
 }
 
-.mt {
+.divSobre {
     margin-top: 25px;
 }
 
-.mb {
+.linha {
     margin-bottom: 50px;
 }
 
-.mt1 {
+.empresas {
     margin-top: 5px;
 }
 
-.mb-5 .mt1 .col-md-3{
+.mb-5 .empresas .col-md-3{
     padding-top: 0;
     padding-left: 35px;
     padding-bottom: 0;
@@ -119,12 +123,12 @@ nav.navbar-transparente {
 	/* box-shadow: 0 0px 4px rgba(0, 0, 0, 0.3); */
   }
 
-.sectionBotton {
+.divFooter {
     background: #161616;
     padding: 35px;
 }
 
-.mimg {
+.footerImg {
     margin-top: 15px;
 }
 
@@ -155,7 +159,7 @@ ul li a i{
     font-size: 135%;
 }
 
-.socialpd {
+.divSocial {
     margin-left: -5px;
 }
 
@@ -182,17 +186,18 @@ a:hover {
     overflow: hidden;
   }
   
-.zoomimg {
+.zoomImg {
     transition: transform 0.3s ease;
+    width: 100%;
   }
   
-.zoomimg:hover {
+.zoomImg:hover {
     transform: scale(1.1);
   }
 
 /*Footer*/
 
-.footerBotton {
+.copyRight {
     background: #0E0E0E;
     padding: 10px;
     color: #7A7A7A;
@@ -200,8 +205,88 @@ a:hover {
 }
 
 /*-------------------------------------------------------------------------------------
-Adicionando animações com o WOW
---------------------------------------------------------------------------------------/*
+Responsividade do site
+--------------------------------------------------------------------------------------*/
 
-/* Adicione um atraso de 0,5s para iniciar a animação */
+@media (max-width: 575.98px) {
+    /* ----------------------------------------------------
+    Nav
+    ----------------------------------------------- */
+    nav.navbar-div {
+        padding: 35px;
+    }
+    .navbar img {
+        width: 60%;
+    }
+
+    /* --------------------------------------------------------------------
+    Primeira seção (Sobre o grupo)
+    ----------------------------------------------------------------- */
+
+	.secaoSobreOGrupo {
+		margin-top: 0px;
+        margin-left: -12px;
+        margin-right: -12px;
+        margin-bottom: 0px;
+	}
+
+    .radius {
+        border-radius: 0px 0;
+      }
+
+    .secaoSobreOGrupo .mt {
+        margin-top: 50px;
+        margin-left: 20px;
+        margin-right: 0px;
+        margin-bottom: 50px;
+        padding-right: 50px;
+    }
+
+    /*--------------------------------------------------------------------
+    Segunda seção (conheça as empresas do grupo)
+    ------------------------------------------------------*/
+
+    /* -----------------------------------------------------
+    Footer
+    ----------------------------------------------------------------- */
+
+    .divFooter {
+        padding: 15px;
+    }
+
+    .divFooter img {
+        width: 55px;
+        margin-bottom: 20px;
+    }
+
+    .divFooter .pl-4 {
+        padding: 0px;
+        margin-left: -20px;
+    }
+
+    .redesSociais {
+        padding: 0;
+        margin-left: -15px;
+    }
+
+    ul li a i{
+        font-size: 100%;
+    }
+
+    .social {
+        float: left;
+        margin: 0px 3px;
+        background: #333030;
+        width: 40px;
+        height: 40px;
+        padding: 8px 0 0 12px;
+        border-radius: 50%;
+    }
+
+    .copyRight {
+        font-size: 11px;
+    }
+
+}
+
         
