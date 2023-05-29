@@ -1,12 +1,8 @@
 /*Body da página*/
-html, body, #home {
-	height: 100%;
-	overflow-x: hidden;
-}
-
 body {
     font-family: 'Montserrat', sans-serif;
     background: #252525;
+    overflow-x:hidden;
 }
 
 /*nav*/
@@ -28,9 +24,6 @@ nav.navbar-div {
 	border-color: rgba(255,255,255,.1);
 } */
 
-.wow {
-    visibility: visible;
-  }
 
 .nav-img {
     padding: 53px;
@@ -87,30 +80,12 @@ nav.navbar-div {
     text-align: justify;
 }
 
-.secaoSobreOGrupo {
-    margin-left: -25px;
-    margin-bottom: 70px;
-    margin-top: 65px;
-}
-
-.divSobre {
-    margin-top: 25px;
-}
-
 .linha {
     margin-bottom: 50px;
 }
 
 .empresas {
     margin-top: 5px;
-}
-
-.mb-5 .empresas .col-md-3{
-    padding-top: 0;
-    padding-left: 35px;
-    padding-bottom: 0;
-    padding-right: 35px;
-    margin-bottom: 25px;
 }
 
 /* .pln {
@@ -212,8 +187,10 @@ Responsividade do site
     /* ----------------------------------------------------
     Nav
     ----------------------------------------------- */
+    
     nav.navbar-div {
-        padding: 35px;
+        padding-top: 35px;
+        margin: 0;
     }
     .navbar img {
         width: 60%;
@@ -224,22 +201,23 @@ Responsividade do site
     ----------------------------------------------------------------- */
 
 	.secaoSobreOGrupo {
-		margin-top: 0px;
-        margin-left: -12px;
-        margin-right: -12px;
-        margin-bottom: 0px;
+		margin-top: 0px !important;
+        margin-bottom: 0px !important;
 	}
 
     .radius {
         border-radius: 0px 0;
+        padding: 0;
+        margin: 0;
       }
 
-    .secaoSobreOGrupo .divSobre {
-        margin-top: 50px;
-        margin-left: 20px;
-        margin-right: 0px;
-        margin-bottom: 50px;
-        padding-right: 50px;
+
+
+    .align_flex{
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        flex-direction: row;
     }
 
     /*--------------------------------------------------------------------
@@ -289,12 +267,6 @@ Responsividade do site
 
 }
 
-/* ----------------------------------------
-Animações
----------------------------------------- */
 
-.wow{
-    visibility: visible !important;
-}
 
         
