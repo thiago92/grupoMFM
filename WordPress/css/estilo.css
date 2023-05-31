@@ -1,0 +1,272 @@
+/*Body da página*/
+body {
+    font-family: 'Montserrat', sans-serif;
+    background: #252525;
+    overflow-x:hidden;
+}
+
+/*nav*/
+nav.navbar-div {
+	padding: 53px 0px;
+	background: #161616;
+}
+
+/* .navbar-expand-md .navbar-nav .nav-link {
+	color: white;
+} */
+
+/* .navbar-expand-md .navbar-nav .nav-link:hover {
+	color: #9bf0e1;
+} */
+
+/* .navbar-expand-md .navbar-toggler {
+	color:  rgba(255,255,255,.5);
+	border-color: rgba(255,255,255,.1);
+} */
+
+
+.nav-img {
+    padding: 53px;
+  }
+  
+.nav-img img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 285px;
+  }
+
+/*corpo*/
+
+.linhaTracejada {
+    border-top: 1px dashed #696969;
+  }
+
+.title1 {
+    color: #FFFFFF;
+    font-size: 31px;
+    margin-bottom: 15px;
+}
+
+.title2 {
+    color: #FFFFFF;
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.title3{
+    color: #FFFFFF;
+    font-size: 18px;
+    margin-left: 30px;
+    font-weight: 550;
+}
+
+.title4{
+    color: #FFFFFF;
+    font-size: 18px;
+    margin-left: 30px;
+    font-weight: 575;
+}
+
+.pd .title4{
+    padding-top: 7px;
+}
+
+.historia {
+    color: #E0E0E0;
+    font-size: 15px;
+    text-align: justify;
+}
+
+.linha {
+    margin-bottom: 50px;
+}
+
+.empresas {
+    margin-top: 5px;
+}
+
+/* .pln {
+    margin-left: -45px;
+    margin-top: 5px;
+} */
+
+.radius {
+	border-radius: 50px 0;
+	/* box-shadow: 0 0px 4px rgba(0, 0, 0, 0.3); */
+  }
+
+.divFooter {
+    background: #161616;
+    padding: 35px;
+}
+
+.footerImg {
+    margin-top: 15px;
+}
+
+.pr {
+    padding-right: 5px;
+}
+
+/* .pd {
+    padding-top: 10px;
+    padding-left: 55px;
+} */
+
+.item {
+    padding-top: 10px;
+}
+
+ul {
+	list-style: none;
+    color: #fffff8;
+    font-size: 17px;
+}
+
+ul li {
+    padding-bottom: 4px;
+}
+
+ul li a i{
+    font-size: 135%;
+}
+
+.divSocial {
+    margin-left: -5px;
+}
+
+.social {
+    float: left;
+    margin: 0px 3px;
+    background: #333030;
+    width: 40px;
+    height: 40px;
+    padding: 9px 0 0 10px;
+    border-radius: 50%;
+}
+
+a {
+    text-decoration: none;
+    color: #fffff8;
+  }
+
+a:hover {
+    color: #fffff8;
+}
+
+.container {
+    overflow: hidden;
+  }
+  
+.zoomImg {
+    transition: transform 0.3s ease;
+    width: 100%;
+  }
+  
+.zoomImg:hover {
+    transform: scale(1.1);
+  }
+
+/*Footer*/
+
+.copyRight {
+    background: #0E0E0E;
+    padding: 10px;
+    color: #7A7A7A;
+    font-size: 14px ;
+}
+
+/*-------------------------------------------------------------------------------------
+Responsividade do site
+--------------------------------------------------------------------------------------*/
+
+@media (max-width: 575.98px) {
+    /* ----------------------------------------------------
+    Nav
+    ----------------------------------------------- */
+    
+    nav.navbar-div {
+        padding-top: 35px;
+        margin: 0;
+    }
+    .navbar img {
+        width: 60%;
+    }
+
+    /* --------------------------------------------------------------------
+    Primeira seção (Sobre o grupo)
+    ----------------------------------------------------------------- */
+
+	.secaoSobreOGrupo {
+		margin-top: 0px !important;
+        margin-bottom: 0px !important;
+	}
+
+    .radius {
+        border-radius: 0px 0;
+        padding: 0;
+        margin: 0;
+      }
+
+
+
+    .align_flex{
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        flex-direction: row;
+    }
+
+    /*--------------------------------------------------------------------
+    Segunda seção (conheça as empresas do grupo)
+    ------------------------------------------------------*/
+
+    /* -----------------------------------------------------
+    Footer
+    ----------------------------------------------------------------- */
+
+    .divFooter {
+        padding: 15px;
+    }
+
+    .divFooter img {
+        width: 55px;
+        margin-bottom: 20px;
+    }
+
+    .divFooter .pl-4 {
+        padding: 0px;
+        margin-left: -20px;
+    }
+
+    .redesSociais {
+        padding: 0;
+        margin-left: -15px;
+    }
+
+    ul li a i{
+        font-size: 100%;
+    }
+
+    .social {
+        float: left;
+        margin: 0px 3px;
+        background: #333030;
+        width: 40px;
+        height: 40px;
+        padding: 8px 0 0 12px;
+        border-radius: 50%;
+    }
+
+    .copyRight {
+        font-size: 11px;
+    }
+
+}
+
+
+
+        
